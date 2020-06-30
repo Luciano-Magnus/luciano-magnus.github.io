@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MathEasy</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+     <!-- /bootstrap-->
+
+     <link rel="stylesheet" href="./assets/css/style.css">
+    <script type="text/javascript" src="Assets/script.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="text-center">Dicas de Matemática MathEasy</h1>
+        </div>
+        
+    </header>
+
+    <section class="container">
+        <div  class="row">
+            <article class="col-md-8">
+                 
+                <div class="row">
+                    <div id="accordion">
+                        <div  class="conteudos" data-toggle="collapse" data-target="#collapseBhaskara" aria-expanded="false" aria-controls="collapseBhaskara" >
+                            <p class="texto"> bhaskara</p>
+                        </div>
+                    
+                        <div id="collapseBhaskara" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <p  class="texto_conteudo"> A fórmula de Bhaskara é um método resolutivo 
+                                para equações do segundo grau cujo nome homenageia o grande matemático 
+                                indiano que a demonstrou. Essa fórmula nada mais é do que um método para 
+                                encontrar as raízes reais de uma equação do segundo grau fazendo uso apenas 
+                                de seus coeficientes. Vale lembrar que coeficiente é o número que multiplica 
+                                uma incógnita em uma equação."</p>
+                        
+                            <h1>Calcular bhaskara</h1>
+
+                            <label for="A">Digite o A: </label>
+                            <input type="text" name="A" id="A"/>
+                             <br>
+                            <label for="B">Digite o B: </label>
+                            <input type="text" name="B" id="B"/>
+                            <br>
+                            <label for="C">Digite o C: </label>
+                            <input type="text" name="C" id="C"/>
+                            <br>
+                            <button type="button" class="btn btn-primary" onclick="somar()">Calcular</button>
+                            <p id="result_bhaskara"></p>
+                        </div>
+
+                     </div>
+                
+                     <div  class="conteudos" data-toggle="collapse" data-target="#collapseFuncaoQuadratica" aria-expanded="false" aria-controls="collapseBhaskara" >
+                        <p class="texto"> Função quadratica</p>
+                     </div>
+                
+                    <div id="collapseFuncaoQuadratica" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                         <p class="texto_conteudo">função quadrática, também chamada de função do segundo grau, é expressa como 
+                         f(x) = ax² + bx + c ou y= ax² + bx + c, sendo que os coeficientes 'a, b e c' números reais 
+                         e 'a' diferente de 0 (zero).
+
+
+                        <br> <br>De modo geral, as funções possuem dois elementos básicos: 1) domínio, que corresponde ao
+                         conjunto dos valores possíveis das abscissas (x) e 2) imagem, que é o conjunto de valores das
+                        ordenas (y), estabelecida pela aplicação de f(x)."+ 
+    
+                        <br> <br>Já o grau da função é determinado de acordo com o maior expoente da variável x.
+                        No caso da função quadrática, dois é o mais expoente de x. Mas atenção! Se em uma função 
+                        não houver nenhum expoente na variável x significa que ela é do primeiro grau.</p> 
+                    </div>
+                    
+                    <div  class="conteudos" data-toggle="collapse" data-target="#collapseArea" aria-expanded="false" aria-controls="collapseArea" >
+                        <p class="texto"> Area </p>
+                     </div>
+                
+                    <div id="collapseArea" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                         <p class="texto_conteudo">Área é a medida de uma superfície.
+
+                            <br> <br>A área do campo de futebol é a medida de sua superfície (gramado).
+                        
+                            <br> <br>Se pegarmos outro campo de futebol e colocarmos em uma malha quadriculada, 
+                             a sua área será equivalente à quantidade de quadradinho. Se cada quadrado for uma unidade de área:
+                            <img src="Assets/imagens/campoarea.jpg" alt="foto campo"></p> 
+                    </div>
+                </div>
+                <div class="row">
+                    <h5 style="margin-top: 15px;">MVP do nosso app em desenvolvimento</h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <img class="telas" src="Assets/imagens/MainActivity.png" alt="MainActivity">
+                        <img class="telas" src="Assets/imagens/BhaskaraActivity.png" alt="BhaskaraActivity">
+                        <img class="telas" src="Assets/imagens/AreaActivity.png" alt="AreaActivity">
+
+                    </div>
+                </div>
+            </article>
+        
+            <aside class="col-md-4">
+                <p>MathEasy é um software desenvolvido por acadêmicos do curso de 
+                    análise e desenvolvimento de sistemas com o intuito de ajudar 
+                    estudantes tanto do ensino fundamental quanto estudantes do ensino médio
+                    em suas contas matemáticas.
+                    <br><p style="text-align: center;"><b>Desenvolvedores:</b></p>
+                   
+                </p>
+                <br>
+                    <img class="card-img-top" src="Assets/imagens/foto_redonda.png" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                      <h4 class="card-title">Luciano Evaldt Magnus</h4>
+                      <p class="card-text"> Acadêmico do curso de análise e 
+                          desenvolvimento de sistemas</p>
+                    </div>
+                  
+                
+                  <img class="card-img-top" src="Assets/imagens/foto_airi.png" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                      <h4 class="card-title">Airiane Melo de Matos</h4>
+                      <p class="card-text"> Acadêmica do curso de análise e 
+                          desenvolvimento de sistemas</p>
+                    </div>
+
+                 
+            </aside>
+        </div>
+    </section>
+
+
+</body>
+</html>
