@@ -1,0 +1,61 @@
+aside{
+    width: 400px !important;
+    height: calc(100% - 350px);
+    margin-top: 10px;
+    border-width: 2px;
+    border-color: rgb(24, 98, 100);
+    border-style: solid;
+}
+footer{
+    margin-top: 15px;
+}
+.jumbotron{
+    background-color: rgb(24, 98, 100)!important;
+
+}
+
+h1{
+    color: rgb(255, 255, 255);
+
+}
+
+.telas{
+    width: 270px;
+    height: 450px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.card-title{
+    color: rgb(24, 98, 100);
+}
+
+.conteudos{
+    background: linear-gradient(180deg, rgb(52, 159, 163) 25%, rgb(89, 172, 175) 50%, aquamarine 97%);
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(82, 81, 81, 0.77);
+    box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+.texto{
+    padding-top: 90px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+
+
+.texto_conteudo{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    color: rgb(24, 98, 100);
+}

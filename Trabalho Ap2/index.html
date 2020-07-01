@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MathEasy</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+     <!-- /bootstrap-->
+
+     <link rel="stylesheet" href="./Assets/css/style.css">
+    <script type="text/javascript" src="Assets/script.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="text-center">Dicas de Matemática MathEasy</h1>
+        </div>
+        
+    </header>
+
+    <section class="container">
+        <div  class="row">
+            <article class="col-md-8">
+                 
+                <div class="row">
+                    <div id="accordion">
+                        <div  class="conteudos" data-toggle="collapse" data-target="#collapseBhaskara" aria-expanded="false" aria-controls="collapseBhaskara" >
+                            <p class="texto"> bhaskara</p>
+                        </div>
+                    
+                        <div id="collapseBhaskara" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <p  class="texto_conteudo"> A fórmula de Bhaskara é um método resolutivo 
+                                para equações do segundo grau cujo nome homenageia o grande matemático 
+                                indiano que a demonstrou. Essa fórmula nada mais é do que um método para 
+                                encontrar as raízes reais de uma equação do segundo grau fazendo uso apenas 
+                                de seus coeficientes. Vale lembrar que coeficiente é o número que multiplica 
+                                uma incógnita em uma equação."</p>
+
+                            <label for="A">Digite o A: </label>
+                            <input type="text" name="A" id="A"/>
+                             <br>
+                            <label for="B">Digite o B: </label>
+                            <input type="text" name="B" id="B"/>
+                            <br>
+                            <label for="C">Digite o C: </label>
+                            <input type="text" name="C" id="C"/>
+                            <br>
+                            <button type="button" class="btn btn-primary" onclick="somar()">Calcular</button>
+                            <p id="result_bhaskara"></p>
+                        </div>
+
+                     </div>
+                
+                     <div  class="conteudos" data-toggle="collapse" data-target="#collapsePorcentagem" aria-expanded="false" aria-controls="collapsePorcentagem" >
+                        <p class="texto"> Porcentagem</p>
+                     </div>
+                
+                    <div id="collapsePorcentagem" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                         <p class="texto_conteudo">Porcentagens são chamadas, também de razão centesimal ou de percentual. 
+                             As porcentagens costumam ser indicadas pelo símbolo “%”, lê-se “por cento”. Portanto, 
+                             5% de R$ 80,00 será R$ 4,00. </p> 
+                            <br>
+                            <label for="valor">Digite o valor total: </label>
+                            <input type="text" name="valor" id="valor"/>
+                            <br>
+                            <label for="desconto">Digite a Porcentagem: </label>
+                            <input type="text" name="desconto" id="desconto"/>
+                            <br>
+                            <button type="button" class="btn btn-primary" onclick="porcentagem()">Calcular</button>
+                            <p id="result_porcentagem"></p>
+                    </div>
+                    
+                    <div  class="conteudos" data-toggle="collapse" data-target="#collapseArea" aria-expanded="false" aria-controls="collapseArea" >
+                        <p class="texto"> Area <br>quadrado</p>
+                     </div>
+                
+                    <div id="collapseArea" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                         <p class="texto_conteudo">Área é a medida de uma superfície.
+
+                            <br> <br>Cilindro é uma forma geométrica tridimensional formada por duas 
+                            bases circulares em planos distintos e paralelos e por todos os pontos entre 
+                            essas bases. Um cilindro é uma figura geométrica espacial, ou seja, só pode ser 
+                            definida no espaço tridimensional.
+
+                            <br>
+                            <label for="raio">Digite o raio: </label>
+                            <input type="text" name="raio" id="raio"/>
+                            <br>
+                            <label for="altura">Digite a altura </label>
+                            <input type="text" name="altura" id="altura"/>
+                            <br>
+                            <button type="button" class="btn btn-primary" onclick="cilindro()">Calcular</button>
+                            <p id="result_cilindro"></p>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <h5 style="margin-top: 15px;">MVP do nosso app em desenvolvimento</h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <img class="telas" src="Assets/imagens/MainActivity.png" alt="MainActivity">
+                        <img class="telas" src="Assets/imagens/BhaskaraActivity.png" alt="BhaskaraActivity">
+                        <img class="telas" src="Assets/imagens/AreaActivity.png" alt="AreaActivity">
+                        <img class="telas" src="Assets/imagens/CilindroActivity.png" alt="CilindroActivity">
+
+
+                    </div>
+                </div>
+            </article>
+        
+            <aside class="col-md-4">
+                <p>MathEasy é um software desenvolvido por acadêmicos do curso de 
+                    análise e desenvolvimento de sistemas com o intuito de ajudar 
+                    estudantes tanto do ensino fundamental quanto estudantes do ensino médio
+                    em suas contas matemáticas.
+                    <br><p style="text-align: center;"><b>Desenvolvedores:</b></p>
+                   
+                </p>
+                <br>
+                    <img class="card-img-top" src="Assets/imagens/foto_redonda.png" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                      <h4 class="card-title">Luciano Evaldt Magnus</h4>
+                      <p class="card-text"> Acadêmico do curso de análise e 
+                          desenvolvimento de sistemas</p>
+                    </div>
+                  
+                
+                  <img class="card-img-top" src="Assets/imagens/foto_airi.png" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                      <h4 class="card-title">Airiane Melo de Matos</h4>
+                      <p class="card-text"> Acadêmica do curso de análise e 
+                          desenvolvimento de sistemas</p>
+                    </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="text-center">Dicas de Matemática MathEasy</h1>
+        </div>
+    </footer>
+
+
+</body>
+</html>
