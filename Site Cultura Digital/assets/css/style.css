@@ -36,10 +36,20 @@
     padding-left: 300px;
 }
 
-
+#iconeInsta{
+    width: 100px;
+    height: 80px;
+    margin-left: 80px;
+    margin-top: 16px;
+}
+#textoInsta{
+    margin-left: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
 
 footer{
-    background-color: cornflowerblue !important;
-    height: 50px;
+    background-color:  rgb(243, 243, 243) !important;
+    height: 150px;
     margin-bottom: 0px;
 }
