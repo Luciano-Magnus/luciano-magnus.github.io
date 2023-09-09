@@ -36,6 +36,42 @@
   color: #7F7F7F;
 }
 
+.switch-container {
+  display: flex;
+  align-items: center;
+}
+
+.switch-label {
+  margin-right: 10px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.switch-handle {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: white;
+  top: 1px;
+  transition: transform 0.2s ease-in-out;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked + .switch .switch-handle {
+  transform: translateX(20px);
+}
+
 h6 {
   font-family: 'Poppins', sans-serif;
 }

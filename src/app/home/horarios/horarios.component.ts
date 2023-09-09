@@ -12,6 +12,7 @@ export class HorariosComponent {
         new HorarioItemModel('18:00', '19:00'),
         new HorarioItemModel('19:00', '20:00'),
         new HorarioItemModel('20:00', '21:00'),
+        new HorarioItemModel('21:00', '22:00'),
       ],
       true),
     new HorarioModel('Terça', [
@@ -24,6 +25,7 @@ export class HorariosComponent {
         new HorarioItemModel('18:00', '19:00'),
         new HorarioItemModel('19:00', '20:00'),
         new HorarioItemModel('20:00', '21:00'),
+        new HorarioItemModel('21:00', '22:00'),
       ],
       true),
     new HorarioModel('Quinta', [

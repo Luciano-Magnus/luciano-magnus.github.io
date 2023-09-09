@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component} from '@angular/core';
 import {PlanoModel} from "./plano.model";
 
 @Component({
@@ -9,21 +9,8 @@ import {PlanoModel} from "./plano.model";
 export class PlanosComponent {
   planos: PlanoModel[] = [
     {
-      title: 'Treinamento Funcional',
-      value: 100,
-      valueSuffix: '/Mes',
-      info: 'Treinamento funcional para ciranças',
-      checkes: [
-        'Duas aulas por semana',
-        'Treinamento em grupo',
-        'Equipamentos funcionais',
-        'Fortalecimento muscular',
-      ],
-      buttonText: 'Escolher'
-    },
-    {
       title: 'Aulas',
-      value: 150,
+      value: 180,
       valueSuffix: '/Mes',
       info: 'Treinamento funcional para ciranças',
       checkes: [
@@ -36,7 +23,7 @@ export class PlanosComponent {
     },
     {
       title: 'Competição',
-      value: 150,
+      value: 180,
       valueSuffix: '/Mes',
       info: 'Treinamento funcional para ciranças',
       checkes: [
@@ -48,8 +35,8 @@ export class PlanosComponent {
       buttonText: 'Escolher',
     },
     {
-      title: 'Competição + Aulas\n',
-      value: 250,
+      title: 'Competição + Aulas',
+      value: 280,
       valueSuffix: '/Mes',
       info: 'Treinamento funcional para ciranças',
       checkes: [
@@ -60,7 +47,10 @@ export class PlanosComponent {
       ],
       buttonText: 'Escolher',
     }
-  ]
+  ];
+
+  isSwitch1On: boolean = false;
+
 
   handleButtonClick() {
   }

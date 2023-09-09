@@ -21,7 +21,7 @@ import { FabComponent } from './shared/utils/fab/fab.component';
     PlanosComponent,
     BeneficiosComponent,
     HorariosComponent,
-    FabComponent
+    FabComponent,
   ],
   imports: [
     BrowserModule,
