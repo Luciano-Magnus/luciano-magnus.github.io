@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+.uk-card-primary {
+  background: #FF0000;
+}
+.uk-card-secundary {
+  background: #002374;
+}
+
+.custom-divider {
+  background-color: #FFFFFF;
+  height: 1px; /* Defina a altura da linha divisória */
+  margin: 10px 0; /* Defina a margem para espaçamento vertical */
+}
+
+.custom-card {
+  border-radius: 10px;
+}

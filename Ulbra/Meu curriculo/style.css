@@ -1,0 +1,118 @@
+
+#DivPrincipal{
+    width: 70%;
+    height: 100%;
+    left: 10%;
+    padding-left: 150px;
+    position: relative;
+    border: 1px;
+    float: left;
+    border-style: solid;
+  }
+#MeuNome{
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    background-color: navy;
+    color: oldlace;
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+#minhafoto{
+    height: 100px;
+    width: 100px;
+    float: left;
+    border-radius: 105px;
+}
+#dados{
+    width: 70%;
+    float: left;
+    padding-left: 85px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#obj{
+    clear: both;
+    float: left;
+    width: 100%;
+    font-size: 25px;
+}
+.linha{
+    float: left;
+    width: 900px;
+    border: 2px solid navy;
+}
+.esquerda {			 
+	width: 10%;
+	height: 60px;
+	float: left; 
+}
+.direita { 
+    float: left; 
+    left: 70px;
+    position: relative;
+}
+.unica{
+	clear: both; /* garante a posição abaixo da divs superiores (esquerda e direita),  */
+    height: 5px;
+}
+.bolinhaFechada{
+    float: left;
+    width: 10px;
+    height: 10px;
+    background-color: navy;
+    border: navy;
+    border-style: solid;
+    border-radius: 150px;
+    position: relative;
+    display: flex;
+    margin: 10px;
+}
+.bolinhaAberta{
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    border: navy;
+    border-style: solid;
+    border-radius: 150px;
+}
+.espaco{
+    position: absolute;
+    float: left;
+    width: 5px;
+    left: 10px;
+}
+.espacos{
+    position: relative;
+    float: left;
+    width: 10px;
+    background-color: navy;
+    left: 100px;
+    border-radius: 150px;
+}
+.linhaQualidades{
+    float: left;
+    width: 200px;
+    border: 2px solid navy;
+}
+.experiencia { 
+    width: 40%;
+    height: 100%;
+    float: right; 
+    right: 100px;
+    position: relative;
+    
+}
+.habilidade { 
+    width: 400px;
+    height: 100%;
+    float: left; 
+    
+}
+.Obs{
+    font-size: 12px;
+}
+.pPrincipal{
+    font-size: 21px;
+}

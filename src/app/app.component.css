@@ -1,0 +1,47 @@
+#endereco {
+  color: #FFFFFF;
+  cursor: pointer;
+}
+#footer-direitos{
+  background-color: #01102c;
+  height: 40px;
+}
+.navbar-item {
+  color: #FF0000 !important;
+}
+
+.navbar-item:hover {
+  color: #a60b0b !important; /* Escolha a cor que desejar */
+}
+
+.uk-button-large {
+  border-radius: 25px;
+  border-color: #FF0000 !important;
+  border-width: 2px !important;
+  border: solid;
+  color: #FF0000 !important;
+}
+
+.uk-button-large:hover {
+  border-radius: 25px;
+  border-color: #a60b0b !important;
+  border-width: 2px !important;
+  border: solid;
+  color: #a60b0b !important;
+}
+
+.custom-container {
+  max-width: 1600px; /* Define a largura máxima do contêiner */
+  margin-left: auto; /* Centraliza horizontalmente */
+  margin-right: auto; /* Centraliza horizontalmente */
+  padding-left: 15px; /* Adiciona um espaçamento à esquerda */
+  padding-right: 15px; /* Adiciona um espaçamento à direita */
+}
+.footer-icon {
+  margin-left: 10px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+footer {
+  background-color: #000c34;
+}
