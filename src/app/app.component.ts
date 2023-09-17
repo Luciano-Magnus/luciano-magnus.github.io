@@ -13,7 +13,7 @@ export class AppComponent implements  OnInit{
   }
   // Método para verificar o tamanho da tela e atualizar a variável telaPequena
   private verificarTamanhoDaTela() {
-    this.telaPequena = window.innerWidth < 1000; // Defina a largura limite que define quando a tela é pequena
+    this.telaPequena = window.innerWidth < 1050; // Defina a largura limite que define quando a tela é pequena
   }
 
   @HostListener('window:resize', ['$event'])

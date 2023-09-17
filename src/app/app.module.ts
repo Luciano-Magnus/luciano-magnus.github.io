@@ -11,6 +11,7 @@ import { PlanosComponent } from './home/planos/planos.component';
 import { BeneficiosComponent } from './home/beneficios/beneficios.component';
 import { HorariosComponent } from './home/horarios/horarios.component';
 import { FabComponent } from './shared/utils/fab/fab.component';
+import { SobreComponent } from './home/sobre/sobre.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { FabComponent } from './shared/utils/fab/fab.component';
     BeneficiosComponent,
     HorariosComponent,
     FabComponent,
+    SobreComponent,
   ],
   imports: [
     BrowserModule,
