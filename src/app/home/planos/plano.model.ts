@@ -1,3 +1,5 @@
+import {PlanoEnum} from "./plano.enum";
+
 export interface PlanoModel {
   title: string;
   value: number;
@@ -5,4 +7,5 @@ export interface PlanoModel {
   info: string;
   checkes: string[];
   buttonText: string;
+  plano: PlanoEnum;
 }

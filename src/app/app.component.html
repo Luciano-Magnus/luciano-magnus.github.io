@@ -128,27 +128,27 @@
 
       <div class="uk-navbar-right">
         <div *ngIf="!telaPequena">
-          <button class="uk-button uk-button-large">Aula experimental</button>
+          <button class="uk-button uk-button-large" (click)="aulaExperimentalClicked()">Aula experimental</button>
         </div>
 
         <div *ngIf="telaPequena">
           <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#"></a>
           <div class="uk-navbar-dropdown">
             <ul class="uk-nav uk-navbar-dropdown-nav">
-              <li class="uk-active"><a class="navbar-item" href="#">Sobre</a></li>
-              <li class="uk-active"><a class="navbar-item" href="#">Modalidades</a></li>
-              <li class="uk-active"><a class="navbar-item" href="#">Planos</a></li>
-              <li class="uk-active"><a class="navbar-item" href="#">Horários</a></li>
+              <li class="uk-active"><a class="navbar-item" href="#app-sobre">Sobre</a></li>
+              <li class="uk-active"><a class="navbar-item" href="#app-modalidade">Modalidades</a></li>
+              <li class="uk-active"><a class="navbar-item" href="#app-planos">Planos</a></li>
+              <li class="uk-active"><a class="navbar-item" href="#app-horarios">Horários</a></li>
             </ul>
           </div>
         </div>
 
         <div *ngIf="!telaPequena">
           <ul class="uk-navbar-nav">
-            <li class="uk-active"><a class="navbar-item" href="#">Sobre</a></li>
-            <li class="uk-active"><a class="navbar-item" href="#">Modalidades</a></li>
-            <li class="uk-active"><a class="navbar-item" href="#">Planos</a></li>
-            <li class="uk-active"><a class="navbar-item" href="#">Horários</a></li>
+            <li class="uk-active"><a class="navbar-item" href="#app-sobre">Sobre</a></li>
+            <li class="uk-active"><a class="navbar-item" href="#app-modalidade">Modalidades</a></li>
+            <li class="uk-active"><a class="navbar-item" href="#app-planos">Planos</a></li>
+            <li class="uk-active"><a class="navbar-item" href="#app-horarios">Horários</a></li>
           </ul>
         </div>
       </div>

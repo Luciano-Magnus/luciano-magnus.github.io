@@ -10,5 +10,33 @@
 </head>
 <body>
   <app-root></app-root>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const links = document.querySelectorAll('.navbar-item');
+
+      links.forEach(link => {
+        link.addEventListener('click', (event) => {
+          event.preventDefault();
+
+          const targetId = link.getAttribute('href').substring(1);
+          const targetElement = document.getElementById(targetId);
+
+          if (targetElement) {
+            let offset = 0;
+
+            // Se você tiver um menu fixo, ajuste o valor de offset conforme necessário
+            // Por exemplo, se o seu menu tem 50 pixels de altura, você pode fazer:
+            // offset = 50;
+
+            window.scrollTo({
+              top: targetElement.offsetTop - offset,
+              behavior: 'smooth'
+            });
+          }
+        });
+      });
+    });
+  </script>
+
 </body>
 </html>

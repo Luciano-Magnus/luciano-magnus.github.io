@@ -32,4 +32,8 @@ export class AppComponent implements  OnInit{
   public onEnderecoClick() {
     window.open('https://www.google.com/maps/@-29.3360437,-49.7336009,3a,47.1y,246.03h,97.81t/data=!3m6!1e1!3m4!1sDeF39NERiLosaI6XHMIIkw!2e0!7i16384!8i8192?authuser=0&entry=ttu', '_blank');
   }
+
+  aulaExperimentalClicked() {
+    window.open('https://api.whatsapp.com/send?phone=555182360551&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20aula%20experimental%20de%20taekwondo.', '_blank');
+  }
 }
