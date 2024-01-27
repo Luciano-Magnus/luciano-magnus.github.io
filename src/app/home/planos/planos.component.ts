@@ -14,7 +14,7 @@ export class PlanosComponent {
       title: 'Aulas',
       value: 180,
       valueSuffix: '/Mes',
-      info: 'Treinamento funcional para ciranças',
+      info: 'Plano ideal para quem quer aprender técnicas de taekwondo.',
       checkes: [
         'Duas aulas por semana',
         'Treinamento em grupo',
@@ -30,7 +30,7 @@ export class PlanosComponent {
       title: 'Competição',
       value: 180,
       valueSuffix: '/Mes',
-      info: 'Treinamento funcional para ciranças',
+      info: 'Plano ideal para quem quer participar de competições.',
       checkes: [
         'Duas aulas por semana',
         'Treinamento em grupo',
@@ -46,7 +46,7 @@ export class PlanosComponent {
       title: 'Competição + Aulas',
       value: 350,
       valueSuffix: '/Mes',
-      info: 'Treinamento funcional para ciranças',
+      info: 'Plano ideal para quem quer competir e aprender ténicas de taekwondo.',
       checkes: [
         'Três aulas por semana',
         'Treinamento em grupo',
