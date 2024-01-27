@@ -26,7 +26,7 @@ export class AppComponent implements  OnInit{
   }
 
   public onInstagramClick() {
-    window.open('https://www.instagram.com/teyang_academia/', '_blank');
+    window.open('https://www.instagram.com/biancamaica_/', '_blank');
   }
 
   public onEnderecoClick() {

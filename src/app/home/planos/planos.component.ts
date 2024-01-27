@@ -36,7 +36,7 @@ export class PlanosComponent {
     },
     {
       title: 'Competição + Aulas',
-      value: 280,
+      value: 350,
       valueSuffix: '/Mes',
       info: 'Treinamento funcional para ciranças',
       checkes: [
